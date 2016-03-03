@@ -15,12 +15,12 @@
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:layout_centerInParent="true"
-            app:arcProgressBarAngle="285"
+            app:arcProgressBarAngle="288"
             app:arcProgressBarMaxProgress="100"
-            app:arcProgressBarProgress="50"
-            app:arcProgressBarLineWidth="15dp"
+            app:arcProgressBarProgress="30"
+            app:arcProgressBarLineWidth="20dp"
             app:arcProgressBarDottedSize="1.5dp"
-            app:arcProgressBarInnerRingSize="15dp"
+            app:arcProgressBarInnerRingSize="18dp"
     />
 
 

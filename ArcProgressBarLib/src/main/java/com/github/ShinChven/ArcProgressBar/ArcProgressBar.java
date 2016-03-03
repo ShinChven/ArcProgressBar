@@ -128,9 +128,36 @@ public class ArcProgressBar extends View {
 
         this.mInnerRadius = radius - mArcProgressBarInnerRingSize;
         drawInnerArcBackground(canvas);
+        drawProgress(canvas);
 
 
+    }
 
+    private void drawProgress(Canvas canvas) {
+        // 设置画笔元素
+        Paint paint = new Paint();
+        // 开抗锯齿
+        paint.setAntiAlias(true);
+        // 设置样式为线条
+        paint.setStyle(Paint.Style.STROKE);
+        // 设置线条色
+        paint.setColor(mArcProgressBarColor);
+        // 设置线条宽度
+        paint.setStrokeWidth(mArcProgressBarLineWidth);
+
+        // 创建弧形位置属性
+        RectF oval = new RectF();
+        // 计算弧形居中
+        oval.set(mX / 2 - mInnerRadius, mY / 2 - mInnerRadius, mX / 2 + mInnerRadius, mY / 2 + mInnerRadius);
+        // 画弧形
+        int progressAngle = mArcProgressBarAngle;
+
+        float percent = ((float) mArcProgressBarProgress) / ((float) mArcProgressBarMaxProgress);
+        if (percent < 1) {
+            progressAngle = (int) (mArcProgressBarAngle * percent);
+        }
+
+        canvas.drawArc(oval, mStartAngle, progressAngle, false, paint);
     }
 
     private void drawInnerArcBackground(Canvas canvas) {
