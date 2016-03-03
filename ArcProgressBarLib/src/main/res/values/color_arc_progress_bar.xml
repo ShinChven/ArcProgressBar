@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="arc_progress_bar_default">#93e953</color>
+    <color name="arc_progress_bar_default_background">#4093e953</color>
+
+</resources>

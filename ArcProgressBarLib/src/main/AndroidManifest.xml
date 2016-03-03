@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.ShinChven.ArcProgressBar.lib">
+    package="com.github.ShinChven.ArcProgressBar">
 
     <application
         android:allowBackup="true"

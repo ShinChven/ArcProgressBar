@@ -1,4 +1,4 @@
-package com.github.ShinChven.arcprogressbar;
+package com.github.ShinChven.progressbarsample;
 
 import org.junit.Test;
 

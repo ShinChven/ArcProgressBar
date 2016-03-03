@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcProgressBar">
+        <attr name="arcProgressBarMaxProgress" format="integer"></attr>
+        <attr name="arcProgressBarProgress" format="integer"></attr>
+        <attr name="arcProgressBarAngle" format="integer"></attr>
+        <attr name="arcProgressBarColor" format="color"></attr>
+        <attr name="arcProgressBarBackgroundColor" format="color"></attr>
+        <attr name="arcProgressBarDottedLineColor" format="color"></attr>
+        <attr name="arcProgressBarDottedSize" format="dimension"></attr>
+        <attr name="arcProgressBarLineWidth" format="dimension"></attr>
+        <attr name="arcProgressBarInnerRingSize" format="dimension"></attr>
+
+    </declare-styleable>
+</resources>

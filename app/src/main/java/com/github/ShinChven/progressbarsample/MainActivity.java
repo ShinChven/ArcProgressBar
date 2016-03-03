@@ -1,4 +1,4 @@
-package com.github.ShinChven.arcprogressbar;
+package com.github.ShinChven.progressbarsample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
