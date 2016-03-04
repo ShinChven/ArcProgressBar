@@ -232,4 +232,123 @@ public class ArcProgressBar extends View {
     }
 
 
+    public int getmArcProgressBarColor() {
+        return mArcProgressBarColor;
+    }
+
+    public void setmArcProgressBarColor(int mArcProgressBarColor) {
+        this.mArcProgressBarColor = mArcProgressBarColor;
+    }
+
+    public int getmArcProgressBarBackgroundColor() {
+        return mArcProgressBarBackgroundColor;
+    }
+
+    public void setmArcProgressBarBackgroundColor(int mArcProgressBarBackgroundColor) {
+        this.mArcProgressBarBackgroundColor = mArcProgressBarBackgroundColor;
+    }
+
+    public int getmArcProgressBarDottedLineColor() {
+        return mArcProgressBarDottedLineColor;
+    }
+
+    public void setmArcProgressBarDottedLineColor(int mArcProgressBarDottedLineColor) {
+        this.mArcProgressBarDottedLineColor = mArcProgressBarDottedLineColor;
+    }
+
+    public int getmArcProgressBarMaxProgress() {
+        return mArcProgressBarMaxProgress;
+    }
+
+    public void setmArcProgressBarMaxProgress(int mArcProgressBarMaxProgress) {
+        this.mArcProgressBarMaxProgress = mArcProgressBarMaxProgress;
+    }
+
+    public int getmArcProgressBarProgress() {
+        return mArcProgressBarProgress;
+    }
+
+    public void setmArcProgressBarProgress(int mArcProgressBarProgress) {
+        this.mArcProgressBarProgress = mArcProgressBarProgress;
+    }
+
+    public int getmArcProgressBarAngle() {
+        return mArcProgressBarAngle;
+    }
+
+    public void setmArcProgressBarAngle(int mArcProgressBarAngle) {
+        this.mArcProgressBarAngle = mArcProgressBarAngle;
+    }
+
+    public int getmArcProgressBarLineWidth() {
+        return mArcProgressBarLineWidth;
+    }
+
+    public void setmArcProgressBarLineWidth(int mArcProgressBarLineWidth) {
+        this.mArcProgressBarLineWidth = mArcProgressBarLineWidth;
+    }
+
+    public int getRadius() {
+        return radius;
+    }
+
+    public void setRadius(int radius) {
+        this.radius = radius;
+    }
+
+    public int getInnerRadius() {
+        return innerRadius;
+    }
+
+    public void setInnerRadius(int innerRadius) {
+        this.innerRadius = innerRadius;
+    }
+
+    public int getmArcProgressBarDottedSize() {
+        return mArcProgressBarDottedSize;
+    }
+
+    public void setmArcProgressBarDottedSize(int mArcProgressBarDottedSize) {
+        this.mArcProgressBarDottedSize = mArcProgressBarDottedSize;
+    }
+
+    public int getmStartAngle() {
+        return mStartAngle;
+    }
+
+    public void setmStartAngle(int mStartAngle) {
+        this.mStartAngle = mStartAngle;
+    }
+
+    public int getmX() {
+        return mX;
+    }
+
+    public void setmX(int mX) {
+        this.mX = mX;
+    }
+
+    public int getmY() {
+        return mY;
+    }
+
+    public void setmY(int mY) {
+        this.mY = mY;
+    }
+
+    public int getmArcProgressBarInnerRingSize() {
+        return mArcProgressBarInnerRingSize;
+    }
+
+    public void setmArcProgressBarInnerRingSize(int mArcProgressBarInnerRingSize) {
+        this.mArcProgressBarInnerRingSize = mArcProgressBarInnerRingSize;
+    }
+
+    public int getmInnerRadius() {
+        return mInnerRadius;
+    }
+
+    public void setmInnerRadius(int mInnerRadius) {
+        this.mInnerRadius = mInnerRadius;
+    }
 }

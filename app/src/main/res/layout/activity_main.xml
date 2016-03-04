@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingBottom="@dimen/activity_vertical_margin"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                android:background="#1c1c1c"
-                tools:context="com.github.ShinChven.progressbarsample.MainActivity">
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="#1c1c1c"
+            tools:context="com.github.ShinChven.progressbarsample.MainActivity">
 
-    <com.github.ShinChven.ArcProgressBar.ArcProgressBar
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:layout_centerInParent="true"
-            app:arcProgressBarAngle="288"
-            app:arcProgressBarMaxProgress="100"
-            app:arcProgressBarProgress="30"
-            app:arcProgressBarLineWidth="20dp"
-            app:arcProgressBarDottedSize="1.5dp"
-            app:arcProgressBarInnerRingSize="18dp"
-    />
+        <com.github.ShinChven.ArcProgressBar.ArcProgressBar
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+                app:arcProgressBarAngle="302"
+                app:arcProgressBarMaxProgress="100"
+                app:arcProgressBarProgress="30"
+                app:arcProgressBarLineWidth="20dp"
+                app:arcProgressBarDottedSize="1.5dp"
+                app:arcProgressBarInnerRingSize="18dp"
+                android:id="@+id/arc_progress_bar"
+        />
+
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="click here"
+                android:id="@+id/click"
+        />
 
 
-</RelativeLayout>
+    </RelativeLayout>
+</layout>
