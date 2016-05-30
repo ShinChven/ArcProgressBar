@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
                 viewDataBinding.arcProgressBar.post(new Runnable() {
                     @Override
                     public void run() {
-                        viewDataBinding.arcProgressBar.setmArcProgressBarProgress(70);
-                        viewDataBinding.arcProgressBar.setmArcProgressBarMaxProgress(80);
+                        viewDataBinding.arcProgressBar.setmArcProgressBarProgress(300);
+                        viewDataBinding.arcProgressBar.setmArcProgressBarMaxProgress(10000);
                         viewDataBinding.arcProgressBar.invalidate();
                     }
                 });

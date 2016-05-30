@@ -157,7 +157,10 @@ public class ArcProgressBar extends View {
             progressAngle = (int) (mArcProgressBarAngle * percent);
         }
 
-        canvas.drawArc(oval, mStartAngle, progressAngle, false, paint);
+        if (progressAngle > 0) {
+            canvas.drawArc(oval, mStartAngle, progressAngle, false, paint);
+        }
+
     }
 
     private void drawInnerArcBackground(Canvas canvas) {
