@@ -18,7 +18,7 @@
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_centerInParent="true"
-                app:arcProgressBarAngle="150"
+                app:arcProgressBarAngle="290"
                 app:arcProgressBarMaxProgress="100"
                 app:arcProgressBarProgress="0"
                 app:arcProgressBarLineWidth="20dp"
@@ -27,9 +27,17 @@
                 android:id="@+id/arc_progress_bar"
         />
 
+
         <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
                 android:text="click here"
                 android:id="@+id/click"
+        />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/percentText"
+                  android:layout_centerInParent="true"
+                  android:textColor="#fff"
+                  android:textSize="30dp"
         />
 
 
